@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="PlayerUI/PlayerUI/App.axaml" value="PlayerUI/PlayerUI.Desktop/PlayerUI.Desktop.csproj" />
+        <entry key="PlayerUI/PlayerUI/Assets/Icons.axaml" value="PlayerUI/PlayerUI.Browser/PlayerUI.Browser.csproj" />
+        <entry key="PlayerUI/PlayerUI/Assets/Styles.axaml" value="PlayerUI/PlayerUI.Browser/PlayerUI.Browser.csproj" />
+        <entry key="PlayerUI/PlayerUI/Assets/Themes.axaml" value="PlayerUI/PlayerUI.Browser/PlayerUI.Browser.csproj" />
+        <entry key="PlayerUI/PlayerUI/Shared/CircularProgressIndicator.axaml" value="PlayerUI/PlayerUI.Browser/PlayerUI.Browser.csproj" />
+        <entry key="PlayerUI/PlayerUI/Shared/CircularProgressIndicatorStyle.axaml" value="PlayerUI/PlayerUI.Browser/PlayerUI.Browser.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/AddPlayListView.axaml" value="PlayerUI/PlayerUI.Desktop/PlayerUI.Desktop.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/FindTracksView.axaml" value="PlayerUI/PlayerUI.Desktop/PlayerUI.Desktop.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/HistoryView.axaml" value="PlayerUI/PlayerUI.Desktop/PlayerUI.Desktop.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/HomeView.axaml" value="PlayerUI/PlayerUI.Desktop/PlayerUI.Desktop.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/LibraryView.axaml" value="PlayerUI/PlayerUI.Desktop/PlayerUI.Desktop.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/Login.axaml" value="PlayerUI/PlayerUI.Browser/PlayerUI.Browser.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/LoginView.axaml" value="PlayerUI/PlayerUI.Desktop/PlayerUI.Desktop.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/LoginWindow.axaml" value="PlayerUI/PlayerUI.Browser/PlayerUI.Browser.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/MainView.axaml" value="PlayerUI/PlayerUI.Desktop/PlayerUI.Desktop.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/MainWindow.axaml" value="PlayerUI/PlayerUI.Browser/PlayerUI.Browser.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/OptionsView.axaml" value="PlayerUI/PlayerUI.Browser/PlayerUI.Browser.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/PlayListView.axaml" value="PlayerUI/PlayerUI.Desktop/PlayerUI.Desktop.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/PlayerView.axaml" value="PlayerUI/PlayerUI.Desktop/PlayerUI.Desktop.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/SelectPlayListView.axaml" value="PlayerUI/PlayerUI.Desktop/PlayerUI.Desktop.csproj" />
+        <entry key="PlayerUI/PlayerUI/Views/WelcomeView.axaml" value="PlayerUI/PlayerUI.Desktop/PlayerUI.Desktop.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

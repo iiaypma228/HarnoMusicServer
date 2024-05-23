@@ -1,0 +1,15 @@
+C:\Users\Danil\source\repos\Player\Server.DAL\bin\Release\net7.0\Server.DAL.deps.json
+C:\Users\Danil\source\repos\Player\Server.DAL\bin\Release\net7.0\Server.DAL.dll
+C:\Users\Danil\source\repos\Player\Server.DAL\bin\Release\net7.0\Server.DAL.pdb
+C:\Users\Danil\source\repos\Player\Server.DAL\bin\Release\net7.0\Joint.Data.dll
+C:\Users\Danil\source\repos\Player\Server.DAL\bin\Release\net7.0\Joint.Data.pdb
+C:\Users\Danil\source\repos\Player\Server.DAL\obj\Release\net7.0\Server.DAL.csproj.AssemblyReference.cache
+C:\Users\Danil\source\repos\Player\Server.DAL\obj\Release\net7.0\Server.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danil\source\repos\Player\Server.DAL\obj\Release\net7.0\Server.DAL.AssemblyInfoInputs.cache
+C:\Users\Danil\source\repos\Player\Server.DAL\obj\Release\net7.0\Server.DAL.AssemblyInfo.cs
+C:\Users\Danil\source\repos\Player\Server.DAL\obj\Release\net7.0\Server.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Danil\source\repos\Player\Server.DAL\obj\Release\net7.0\Server.DAL.csproj.CopyComplete
+C:\Users\Danil\source\repos\Player\Server.DAL\obj\Release\net7.0\Server.DAL.dll
+C:\Users\Danil\source\repos\Player\Server.DAL\obj\Release\net7.0\refint\Server.DAL.dll
+C:\Users\Danil\source\repos\Player\Server.DAL\obj\Release\net7.0\Server.DAL.pdb
+C:\Users\Danil\source\repos\Player\Server.DAL\obj\Release\net7.0\ref\Server.DAL.dll

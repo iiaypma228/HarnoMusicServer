@@ -1,0 +1,17 @@
+C:\Users\Danil\source\repos\Player\Server.BLL\bin\Debug\net7.0\Server.BLL.deps.json
+C:\Users\Danil\source\repos\Player\Server.BLL\bin\Debug\net7.0\Server.BLL.dll
+C:\Users\Danil\source\repos\Player\Server.BLL\bin\Debug\net7.0\Server.BLL.pdb
+C:\Users\Danil\source\repos\Player\Server.BLL\bin\Debug\net7.0\Joint.Data.dll
+C:\Users\Danil\source\repos\Player\Server.BLL\bin\Debug\net7.0\Server.DAL.dll
+C:\Users\Danil\source\repos\Player\Server.BLL\bin\Debug\net7.0\Server.DAL.pdb
+C:\Users\Danil\source\repos\Player\Server.BLL\bin\Debug\net7.0\Joint.Data.pdb
+C:\Users\Danil\source\repos\Player\Server.BLL\obj\Debug\net7.0\Server.BLL.csproj.AssemblyReference.cache
+C:\Users\Danil\source\repos\Player\Server.BLL\obj\Debug\net7.0\Server.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danil\source\repos\Player\Server.BLL\obj\Debug\net7.0\Server.BLL.AssemblyInfoInputs.cache
+C:\Users\Danil\source\repos\Player\Server.BLL\obj\Debug\net7.0\Server.BLL.AssemblyInfo.cs
+C:\Users\Danil\source\repos\Player\Server.BLL\obj\Debug\net7.0\Server.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Danil\source\repos\Player\Server.BLL\obj\Debug\net7.0\Server.BLL.csproj.CopyComplete
+C:\Users\Danil\source\repos\Player\Server.BLL\obj\Debug\net7.0\Server.BLL.dll
+C:\Users\Danil\source\repos\Player\Server.BLL\obj\Debug\net7.0\refint\Server.BLL.dll
+C:\Users\Danil\source\repos\Player\Server.BLL\obj\Debug\net7.0\Server.BLL.pdb
+C:\Users\Danil\source\repos\Player\Server.BLL\obj\Debug\net7.0\ref\Server.BLL.dll

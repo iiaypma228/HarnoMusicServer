@@ -1,0 +1,12 @@
+C:\Users\Danil\source\repos\Player\Joint.Data\bin\Release\net7.0\Joint.Data.deps.json
+C:\Users\Danil\source\repos\Player\Joint.Data\bin\Release\net7.0\Joint.Data.dll
+C:\Users\Danil\source\repos\Player\Joint.Data\bin\Release\net7.0\Joint.Data.pdb
+C:\Users\Danil\source\repos\Player\Joint.Data\obj\Release\net7.0\Joint.Data.csproj.AssemblyReference.cache
+C:\Users\Danil\source\repos\Player\Joint.Data\obj\Release\net7.0\Joint.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danil\source\repos\Player\Joint.Data\obj\Release\net7.0\Joint.Data.AssemblyInfoInputs.cache
+C:\Users\Danil\source\repos\Player\Joint.Data\obj\Release\net7.0\Joint.Data.AssemblyInfo.cs
+C:\Users\Danil\source\repos\Player\Joint.Data\obj\Release\net7.0\Joint.Data.csproj.CoreCompileInputs.cache
+C:\Users\Danil\source\repos\Player\Joint.Data\obj\Release\net7.0\Joint.Data.dll
+C:\Users\Danil\source\repos\Player\Joint.Data\obj\Release\net7.0\refint\Joint.Data.dll
+C:\Users\Danil\source\repos\Player\Joint.Data\obj\Release\net7.0\Joint.Data.pdb
+C:\Users\Danil\source\repos\Player\Joint.Data\obj\Release\net7.0\ref\Joint.Data.dll
