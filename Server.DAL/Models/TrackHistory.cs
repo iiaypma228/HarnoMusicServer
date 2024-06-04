@@ -10,7 +10,9 @@ public class TrackHistoryConfiguration : IEntityTypeConfiguration<TrackHistory>
     {
         builder.ToTable(nameof(Tables.TrackHistory));
         builder.HasKey(i => i.Id);
-        builder.HasOne<Track>().WithMany().HasForeignKey(i => i.TrackId);
+        //builder.HasOne<Track>().WithMany().HasForeignKey(i => i.TrackId);
+        builder.HasOne<User>().WithMany().HasForeignKey(i => i.UserId);
         builder.Ignore(i => i.Track);
+        builder.Ignore(i => i.User);
     }
 }

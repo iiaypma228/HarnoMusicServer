@@ -16,24 +16,22 @@ public class PlayListRepository : Repository<PlayList>, IPlayListRepository
         if (await context.PlayListTracks.AnyAsync())
         {
             return await context.PlayLists
-                .GroupJoin(context.PlayListTracks, p => p.Id, t => t.PlayListId, (p, t) => new {p, t})
+                .GroupJoin(context.PlayListTracks, p => p.Id, t => t.PlayListId, (p, t) => new { p, t })
                 .SelectMany(o => o.t.DefaultIfEmpty(), (p, t) => new { p.p, t })
-                .GroupJoin(context.Tracks, p => p.t.TrackId, tr => tr.Id, (p ,tr) =>  new {p.p, p.t, tr} )    
+                .GroupJoin(context.Tracks, p => p.t.TrackId, tr => tr.Id, (p, tr) => new { p.p, p.t, tr })
                 .SelectMany(o => o.tr.DefaultIfEmpty(), (p, tr) => new { p.p, p.t, tr })
-                .GroupBy(i => i.t.PlayListId)
-                //.Where(i => i.Any() || i.FirstOrDefault() == null)
+                .GroupBy(i => i.p.Id)
                 .Select(i => new Joint.Data.Models.PlayList
                 {
-                    Id = i.FirstOrDefault() != null ? i.FirstOrDefault().p.Id! : 0,
+                    Id = i.Key,
                     Name = i.FirstOrDefault() != null ? i.FirstOrDefault().p.Name : null,
-                    UserId =  i.FirstOrDefault() != null ? i.FirstOrDefault().p.UserId : 0,
+                    UserId = i.FirstOrDefault() != null ? i.FirstOrDefault().p.UserId : 0,
                     User = i.FirstOrDefault() != null ? i.FirstOrDefault().p.User : null,
                     ImagePath = i.FirstOrDefault() != null ? i.FirstOrDefault().p.ImagePath : "",
                     ImagePathResourceType = i.FirstOrDefault() != null ? i.FirstOrDefault().p.ImagePathResourceType : 0,
                     IsPrivate = i.FirstOrDefault() != null ? i.FirstOrDefault().p.IsPrivate : false,
-                    Tracks = i.Select(i => i.tr).ToList()
+                    Tracks = i.Select(i => i.tr).Where(tr => tr != null).ToList()
                 })
-                .Where(i => i.Id != 0)
                 .ToListAsync();
         }
 

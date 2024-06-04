@@ -16,7 +16,12 @@ public class TrackHistoryRepository : Repository<TrackHistory>, ITrackHistoryRep
         var result = this.context.TrackHistories
             .GroupJoin(this.context.Tracks, th => th.TrackId, t => t.Id,
                 (t, th) => new { t, th })
-            .SelectMany(o => o.th.DefaultIfEmpty(), (o, cl) => new { o.t, cl });
+            .SelectMany(o => o.th.DefaultIfEmpty(), (o, cl) => new { o.t, cl })
+            .GroupJoin(this.context.Users, th => th.t.UserId, u => u.Id,
+                (th, u) => new { th.t, th.cl, u })
+            .SelectMany(o => o.u.DefaultIfEmpty(), (o, u) => new { o.t, o.cl, u })
+            
+            ;
 
         return await result.Select(i => new TrackHistory
         {

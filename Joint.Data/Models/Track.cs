@@ -9,8 +9,10 @@ public class Track
     public int Duration { get; set; }
     public string ArtistName { get; set; }
     public string AlbumName { get; set; }
-    public int AlbumId { get; set; }
+    public long AlbumId { get; set; }
     public string AudioUrl { get; set; }
+    
+    public string? AudioDownload { get; set; }
     public string AlbumImage { get; set; }
     public string Image { get; set; }
     

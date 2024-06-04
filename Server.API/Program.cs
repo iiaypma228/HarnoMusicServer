@@ -3,6 +3,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Server.API;
@@ -50,8 +51,11 @@ builder.Logging.AddConsole();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITrackRepository, TrackRepository>();
 builder.Services.AddScoped<ILikeTracksRepository, LikeTracksRepository>();
+builder.Services.AddScoped<IPlayListRepository, PlayListRepository>();
+builder.Services.AddScoped<ITrackHistoryRepository, TrackHistoryRepository>();
 builder.Services.AddScoped<ITrackService, TrackService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IPlayListTracksRepository, PlayListTracksRepository>();
 
 
 
@@ -128,7 +132,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseStaticFiles(
+    new StaticFileOptions()
+    {
+        FileProvider = new PhysicalFileProvider(
+            Path.Combine(app.Environment.ContentRootPath, "wwwroot")), 
+    }
+);
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

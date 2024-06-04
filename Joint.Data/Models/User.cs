@@ -10,4 +10,6 @@ public class User
     
     public string Password { get; set; }
     
+    public string? Avatar { get; set; }
+    
 }

@@ -9,7 +9,7 @@ public class TrackDto
     public string artist_name { get; set; }
     public string artist_idstr { get; set; }
     public string album_name { get; set; }
-    public int album_id { get; set; }
+    public string album_id { get; set; }
     public string license_ccurl { get; set; }
     public int position { get; set; }
     public string releasedate { get; set; }

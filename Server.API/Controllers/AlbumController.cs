@@ -21,7 +21,7 @@ public class AlbumController : ControllerBase
     [HttpGet("newAlbums")]
     public List<Album> GetNewAlbums(int? skip, int? take)
     {
-        var res = _httpClient.GetAsync($"albums/?client_id={ClientId}&offset={skip}&limit={take}&format=json&order=releasedate_desc&imagesize=100").Result;
+        var res = _httpClient.GetAsync($"albums/?client_id={ClientId}&offset={skip}&limit={take}&format=json").Result;
         res.EnsureSuccessStatusCode();
         var albumsDto = res.Content.ReadFromJsonAsync<AlbumsDto>().Result;
 
