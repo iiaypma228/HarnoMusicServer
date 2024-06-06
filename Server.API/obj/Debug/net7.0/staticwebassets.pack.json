@@ -1,8 +1,16 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Danil\\source\\repos\\Player\\Server.API\\wwwroot\\images\\08754f8b-6532-43d9-aa2b-7b01dafd978b.png",
+      "PackagePath": "staticwebassets\\images\\08754f8b-6532-43d9-aa2b-7b01dafd978b.png"
+    },
+    {
       "Id": "C:\\Users\\Danil\\source\\repos\\Player\\Server.API\\wwwroot\\images\\18f1bc0c-0118-4fe2-89b8-9f44c47366f5.png",
       "PackagePath": "staticwebassets\\images\\18f1bc0c-0118-4fe2-89b8-9f44c47366f5.png"
+    },
+    {
+      "Id": "C:\\Users\\Danil\\source\\repos\\Player\\Server.API\\wwwroot\\images\\910caf90-0e8f-485a-acea-2508a811e07b.png",
+      "PackagePath": "staticwebassets\\images\\910caf90-0e8f-485a-acea-2508a811e07b.png"
     },
     {
       "Id": "C:\\Users\\Danil\\source\\repos\\Player\\Server.API\\wwwroot\\images\\941c7303-79a7-4bba-8bd5-34e444ce7331.png",
